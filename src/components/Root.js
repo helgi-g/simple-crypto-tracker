@@ -1,16 +1,18 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import { Provider } from 'react-redux'
-import { plus } from '../AC/index'
-import App from './App'
+import { ConnectedRouter } from 'react-router-redux'
 import store from '../store'
+import history from '../history'
+import App from './App'
 
 class Root extends Component {
 
   render() {
     return (
       <Provider store={store}>
-        <App/>
+        <ConnectedRouter history={history}>  
+          <App/>
+        </ConnectedRouter> 
       </Provider>  
     )
   }
