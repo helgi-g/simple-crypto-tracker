@@ -5,7 +5,7 @@
   "scripts": {
     "start": "webpack-dev-server --hot --inline",
     "build": "set NODE_ENV=production&& webpack --config webpack.prod.config.js --progress",
-    "serv": "node server.js"
+    "server": "node server.js"
   },
   "repository": {
     "type": "git",
