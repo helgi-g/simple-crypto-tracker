@@ -1,5 +1,5 @@
 {
-  "name": "basic_react_redux_template",
+  "name": "react-redux-template",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/helgi-g/react-redux-template"
   },
-  "author": "",
+  "author": {
+    "name": "Oleg Gulitsky",
+    "email": "oleg.gulitsky@gmail.com"
+  },
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/helgi-g/react-redux-template",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -40,5 +43,5 @@
     "redux-thunk": "^2.2.0",
     "reselect": "^3.0.1"
   },
-  "description": ""
+  "description": "Template for developing React/Redux application."
 }
