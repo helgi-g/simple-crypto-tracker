@@ -1,4 +1,4 @@
-public/js/
-public/css/
+firebase.json
+.firebaserc
 node_modules
 npm-debug.log
